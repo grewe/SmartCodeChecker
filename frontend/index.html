@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Code Checker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Markdown Renderer -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="header">
+
+            <h1>🚀 Smart Code Checker</h1>
+
+            <p class="description">
+                Smart Code Checker uses AI Agentic Technology powered by Google
+                Vertex AI Agent Engine to analyze your source code for syntax,
+                style, security, performance, and functional issues.
+                It provides intelligent recommendations together with improved
+                code suggestions.
+            </p>
+
+        </header>
+
+        <section class="card">
+
+            <div class="controls">
+
+                <label class="upload-btn" title="Upload Source Code">
+
+                    +
+
+                    <input
+                        id="fileInput"
+                        type="file"
+                        accept=".txt,.py,.js,.ts,.tsx,.java,.cpp,.c,.cs,.go,.rb,.php,.html,.css,.json,.xml,.sql,.md">
+
+                </label>
+
+                <button
+                    id="analyzeBtn"
+                    class="primary">
+                    Analyze Code
+                </button>
+
+            </div>
+
+            <textarea
+                id="codeArea"
+                spellcheck="false"
+                placeholder="Paste your source code here or upload a file..."></textarea>
+
+            <div
+                id="status"
+                class="status">
+            </div>
+
+        </section>
+
+        <!-- Results -->
+
+        <section
+            id="resultCard"
+            class="result-card hidden">
+
+            <div class="result-header">
+
+                <h2>Analysis Results</h2>
+
+            </div>
+
+            <div
+                id="result"
+                class="result markdown-body">
+            </div>
+
+        </section>
+
+        <footer>
+
+            <small>
+                Powered by Google ADK • Vertex AI Agent Engine • Flask • OpenAI Codex
+            </small>
+
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
