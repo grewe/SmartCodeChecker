@@ -2,7 +2,12 @@
 
 Smart Code Checker is a small web app that lets users paste or upload code, sends it to a deployed Vertex AI Agent Engine for analysis, and displays the agent's recommendations.
 
-Project layout:
+### Interface (with partial output from checking code)
+<img width="2858" height="1645" alt="image" src="https://github.com/user-attachments/assets/e6ee56bb-13f5-422d-b6e7-13fdd8fe0f72" />
+
+
+
+## Project layout:
 
 - frontend/
   - index.html
