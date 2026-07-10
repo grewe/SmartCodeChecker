@@ -5,7 +5,7 @@ Smart Code Checker is a small web app that lets users paste or upload code, send
 ### IMPORTANT: the SmartCodeChecker web app expects that you have already deployd to Vertex AI Enging (Google AI Platform) an agent base on steps 1-5&7 of the following [Google CodeLab](https://codelabs.developers.google.com/adk-code-reviewer-assistant/instructions#0)
 
 
-### Interface (with partial output from checking code)
+#### Interface (with partial output from checking code)
 <img width="1358" height="1400" alt="image" src="https://github.com/user-attachments/assets/c6b1fcbe-e94c-46e3-9421-d81813d52479" />
 
 
