@@ -1,5 +1,8 @@
 Flask>=2.0
 gunicorn
 python-dotenv
-google-cloud-aiplatform
+google-cloud-aiplatform>=1.82.0
 vertexai
+google-adk
+pycodestyle
+google-genai
